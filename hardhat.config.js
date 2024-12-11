@@ -14,7 +14,9 @@ module.exports = {
     networks: {
         sepolia: {
             url: `https://sepolia.infura.io/v3/${process.env.INFURA_API_KEY}`,
-            accounts: [`0x${process.env.PRIVATE_KEY}`],
+            accounts: [`${process.env.PRIVATE_KEY}`],
+            gas: 3000000, // Default gas limit for transactions
+            gasPrice: 50000000000, // Default gas price in wei (50 gwei)
         },
     },
 };

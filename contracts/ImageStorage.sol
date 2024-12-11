@@ -1,7 +1,8 @@
 
 
+
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.28; // Change to match Hardhat configuration
+pragma solidity ^0.8.7; // Change to match Hardhat configuration
 
 
 contract ImageStorage {
